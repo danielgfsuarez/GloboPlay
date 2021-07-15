@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolBarMain"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:theme="@style/Theme.GloboPlay">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="@string/toolbar_text"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+</com.google.android.material.appbar.AppBarLayout>
